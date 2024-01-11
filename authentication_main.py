@@ -13,7 +13,7 @@ app=Flask(__name__)
 secret_key=secrets.token_hex(16)
 app.config['SECRET_KEY']=secret_key
 print("Secret Key:", secret_key)
-
+print("ggg")
 conn=mysql.connector.connect(host='localhost', user='root', password='Nikhil1234$',database='data1')
 cursor=conn.cursor()
 
